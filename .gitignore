@@ -1,0 +1,11 @@
+.ipynb_checkpoints
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+.env
+varmat/
+node_modules/
+dist/
+build/
