@@ -25,8 +25,8 @@ Sebelum menjalankan proyek, disarankan untuk menggunakan virtual environment aga
 
 ### 1. Clone Repository
 ```bash
-git clone <repository-url>
-cd <repository-folder>
+git clone https://github.com/Capstone-Catatanku/Data-Science.git
+cd Data-Science
 ```
 
 ### 2. Create Virtual Environment
