@@ -178,13 +178,21 @@ Execute all notebook cells to perform:
 ## 📂 Project Structure
 
 ```text
-.
-├── Data-pure.csv
-├── Data-clean/
-│   └── Data-clean.csv
-├── Data_Dictionary_Keuangan_fix.xlsx
-├── Progress1.ipynb
-└── README.md
+project/
+│── Data-clean/
+│   │── cleaned_data.csv            
+│   │── summary_report.ipynb        
+│
+│── RawData/
+│   │── gofood_food_overviews.csv            
+│   │── produk_tokopedia.csv
+|   │── Sintesis_Data.csv            
+│
+│── .gitignore
+│── Data-pure.csv
+│── Data_Dictionary_Keuangan_fix.xlsx
+│── Progress1.ipynb
+│── README.md
 ```
 
 ---
