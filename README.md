@@ -192,12 +192,13 @@ Execute all notebook cells to perform:
 ## 📈 Analysis Objectives
 
 This project aims to answer questions such as:
+- Di bulan apa total pengeluaran tertinggi terjadi dalam dua tahun terakhir?
+- Apa perbedaan rata-rata pengeluaran antara akhir pekan dan hari  kerja dalam 6 bulan terakhir, dan kategori apa yang paling signifikan  penyebab perbedaan tersebut?
+- Berapa total kerugian finansial dari transaksi outlier (2 SD di atas  rata-rata) dalam 1 tahun terakhir, dan berapa banyak yang  sebenarnya bisa dicegah jika saya menerapkan aturan 'tunggu 3 hari sebelum belanja >500rb'?
 
-* What are the most common transaction categories?
-* How do spending habits change over time?
-* Which categories contribute the most to total expenses?
-* What trends can be observed in income and expenditures?
-* How can financial data be transformed into actionable insights?
+
+## Technical Report
+https://drive.google.com/file/d/1VnePd5dlUXD865H7xTdwwXcPEsU1ikP_/view?usp=drive_link
 
 ---
 
