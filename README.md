@@ -180,8 +180,7 @@ Execute all notebook cells to perform:
 ```text
 project/
 │── Data-clean/
-│   │── cleaned_data.csv            
-│   │── summary_report.ipynb        
+│   │── Data-clean.csv                   
 │
 │── RawData/
 │   │── gofood_food_overviews.csv            
