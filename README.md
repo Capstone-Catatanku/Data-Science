@@ -1,113 +1,214 @@
 # 🧠 Financial Data Analysis Project
-The Financial Data Analysis Project is a comprehensive data analysis and visualization project that aims to provide insights into financial transactions. The project uses a combination of data wrangling, exploratory data analysis, and data visualization techniques to understand financial transaction patterns, categorize transactions, and perform other types of analysis. The project's core features include data cleaning, data transformation, and data visualization using libraries like Pandas, NumPy, Matplotlib, and Seaborn.
 
-## 🚀 what is it do?
-- Data cleaning and preprocessing using Pandas and NumPy
-- Data visualization using Matplotlib and Seaborn
-- Data transformation and feature engineering
-- Data analysis and insights generation
-- Support for multiple data formats, including CSV and Excel
+The Financial Data Analysis Project is a comprehensive data analysis and visualization project that aims to provide insights into financial transactions. The project leverages data wrangling, exploratory data analysis (EDA), and visualization techniques to uncover spending patterns, transaction trends, and category-based financial insights.
+
+The project focuses on transforming raw transaction data into meaningful information through data cleaning, preprocessing, feature engineering, and visualization using popular Python libraries.
+
+## 🚀 What Does This Project Do?
+
+* Data cleaning and preprocessing using Pandas and NumPy
+* Exploratory Data Analysis (EDA)
+* Data visualization using Matplotlib and Seaborn
+* Data transformation and feature engineering
+* Financial transaction analysis and insight generation
+* Support for CSV and Excel datasets
+* Trend analysis based on transaction dates and categories
+
+---
+
+## 📊 Dataset Overview
+
+This project uses a cleaned financial transaction dataset containing personal finance records collected between August 2019 and December 2024.
+
+### Dataset Statistics
+
+| Metric         | Value                       |
+| -------------- | --------------------------- |
+| Total Records  | 37,291                      |
+| Total Features | 4                           |
+| Date Range     | August 2019 – December 2024 |
+| File Format    | CSV                         |
+
+### Dataset Features
+
+| Column              | Description                                   |
+| ------------------- | --------------------------------------------- |
+| tanggal             | Transaction date                              |
+| deskripsi_transaksi | Description of the transaction                |
+| kategori            | Transaction category                          |
+| nominal             | Transaction amount in Indonesian Rupiah (IDR) |
+
+### Transaction Categories
+
+The dataset includes multiple transaction categories such as:
+
+* Belanja (Shopping)
+* Konsumsi (Food & Consumption)
+* Tagihan (Bills & Utilities)
+* Transportasi (Transportation)
+* Kesehatan (Healthcare)
+* Hiburan (Entertainment)
+* Investasi (Investment)
+* Pendapatan (Income)
+* Lain-lain (Others)
+
+### Sample Data
+
+| Tanggal    | Deskripsi Transaksi                           | Kategori  | Nominal |
+| ---------- | --------------------------------------------- | --------- | ------- |
+| 2023-12-17 | tagihan gas 3kg melon ijo lagi rusak mendadak | Tagihan   | 14,171  |
+| 2021-06-13 | jajan rames ayam pop deket kosan              | Konsumsi  | 131,000 |
+| 2023-03-14 | saham tlkm telkom fundamental kuat            | Investasi | 86,150  |
+
+### Dataset Purpose
+
+The cleaned dataset is intended for:
+
+* Financial behavior analysis
+* Spending pattern identification
+* Income and expense tracking
+* Category-based expenditure analysis
+* Time-series trend analysis
+* Data visualization and reporting
+* Machine learning and predictive analytics experiments
+
+---
 
 ## 🛠️ Tech Stack
-- Python 3.x
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Scipy
-- Dateutil
-- Jupyter Notebook
-- CSV and Excel file formats
+
+* Python 3.x
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* SciPy
+* Python Dateutil
+* Jupyter Notebook
+
+---
 
 # 📦 Installation
 
-Sebelum menjalankan proyek, disarankan untuk menggunakan virtual environment agar dependensi proyek terisolasi.
+It is recommended to use a virtual environment before running the project to keep dependencies isolated.
 
-### 1. Clone Repository
+## 1. Clone Repository
+
 ```bash
 git clone https://github.com/Capstone-Catatanku/Data-Science.git
 cd Data-Science
 ```
 
-### 2. Create Virtual Environment
+## 2. Create Virtual Environment
 
-Windows:
+### Windows
+
 ```bash
 python -m venv venv
 ```
 
-Linux/macOS:
+### Linux/macOS
+
 ```bash
 python3 -m venv venv
 ```
 
-### 3. Activate Virtual Environment
+## 3. Activate Virtual Environment
 
-Windows (Command Prompt):
+### Windows (Command Prompt)
+
 ```bash
 venv\Scripts\activate
 ```
 
-Windows (PowerShell):
+### Windows (PowerShell)
+
 ```bash
 venv\Scripts\Activate.ps1
 ```
 
-Linux/macOS:
+### Linux/macOS
+
 ```bash
 source venv/bin/activate
 ```
 
-### 4. Install Required Libraries
+## 4. Install Required Libraries
 
 ```bash
 pip install pandas numpy matplotlib seaborn scipy python-dateutil jupyter
 ```
 
-Pastikan seluruh dependensi berhasil terpasang sebelum menjalankan proyek.
+Or install using a requirements file:
+
+```bash
+pip install -r requirements.txt
+```
 
 ---
 
 # 💻 Usage
 
-### 1. Start Jupyter Notebook
+## 1. Start Jupyter Notebook
 
 ```bash
 jupyter notebook
 ```
 
-### 2. Open the Notebook
+## 2. Open the Notebook
 
-Buka file:
+Open:
 
 ```text
 Progress1.ipynb
 ```
 
-### 3. Run the Analysis
+## 3. Run the Analysis
 
-Jalankan seluruh cell pada notebook untuk melakukan:
+Execute all notebook cells to perform:
 
-- Data preprocessing
-- Data analysis
-- Statistical analysis
-- Data visualization
+* Data preprocessing
+* Data cleaning
+* Exploratory Data Analysis (EDA)
+* Statistical analysis
+* Data visualization
+* Insight generation
 
 ---
 
 ## 📂 Project Structure
-```markdown
+
+```text
 .
 ├── Data-pure.csv
-├── Data-clean
-│   ├── Data-clean.csv
+├── Data-clean/
+│   └── Data-clean.csv
 ├── Data_Dictionary_Keuangan_fix.xlsx
 ├── Progress1.ipynb
 └── README.md
 ```
 
-## 📝 License
-The project is licensed under the MIT License.
+---
 
-## 💖 Thanks Message
-A huge thanks to everyone who has contributed to the project! We're grateful for your support and contributions.
+## 📈 Analysis Objectives
+
+This project aims to answer questions such as:
+
+* What are the most common transaction categories?
+* How do spending habits change over time?
+* Which categories contribute the most to total expenses?
+* What trends can be observed in income and expenditures?
+* How can financial data be transformed into actionable insights?
+
+---
+
+## 📝 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 💖 Acknowledgements
+
+A huge thanks to everyone who has contributed to this project. Your support, feedback, and contributions have helped improve the quality and impact of this work.
+
+Special thanks to all team members involved in data collection, preprocessing, analysis, and project development.
