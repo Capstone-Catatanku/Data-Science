@@ -56,7 +56,7 @@ The dataset includes multiple transaction categories such as:
 
 | Tanggal    | Deskripsi Transaksi                           | Kategori  | Nominal |
 | ---------- | --------------------------------------------- | --------- | ------- |
-| 2023-12-17 | tagihan gas 3kg melon ijo lagi rusak mendadak | Tagihan   | 14,171  |
+| 2023-06-03 | order mesin bor skill | Belanja | 325,000 |
 | 2021-06-13 | jajan rames ayam pop deket kosan              | Konsumsi  | 131,000 |
 | 2023-03-14 | saham tlkm telkom fundamental kuat            | Investasi | 86,150  |
 
